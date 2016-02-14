@@ -1,0 +1,121 @@
+
+body{
+background-color: #fff;
+}
+header{
+background-color: azure;
+    float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+.aboveNav h1 {
+    color: aquamarine;
+    font-size: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+.aboveNav h1{
+	text-align: center;
+	
+}
+
+#portfolio {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 25%;
+  margin: 2.5%;
+  background-color: aliceblue;
+  color: azure;
+   
+   
+
+}
+/*formating gallery text*/
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 20px;
+  color: navy;
+    text-align: center;
+
+}
+/*setting size for images to make them equal*/
+/*#gallery img {
+    height: 270px;
+    width: 270px;
+}
+*/
+/* navigation CSS*/
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+     list-style: none;
+}
+
+/* the list of links */
+nav li {
+  display: inline-block;
+}
+
+/* the href of the links*/
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/* nav link visited */
+nav a, nav a:visited {
+  color: navy;
+}
+
+/*while selecting nav link */
+nav a.selected, nav a:hover {
+  color: bisque;
+}
+
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #cccfff;
+}

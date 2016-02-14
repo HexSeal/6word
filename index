@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">  <!--lang is the attribute-->
+<head>
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head> <!--Comment-->
+<body>
+<header>
+    <div class="nav">
+		<ul>
+			<li> <a href = "index.html">About the creators </a></li> 
+			<li><a href = "portfolio.html"  > Make a 6 Slider </a></li>    
+  </ul>
+	</div>
+</header>
+	
+	<h1> 6Slide</h1>
+    <p class="important">6Slide is a game where you find 6 pictures, and someone tries to make a story out of them. Great for testing  Play with friends or share sets online.</p>
+    <p style="text-align:center"><a href=""><img src="http://www.jorambarrez.be/blog/wp-content/activiti_6.png" alt="666" width="550" height="400"></a></p>
+    <p style="text-align:center">Click on the photo</p> 
+	
+</body>
+<footer>
+	 <<p style="text-align:center"> &copy; Made by Max Finn and the Johals </p>
+</footer>
+</html>

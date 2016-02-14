@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">  <!--lang is the attribute-->
+<head>
+	<title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="creator.css">
+</head> <!--Comment-->
+<body onkeydown="FuncProtect()" onkeyup="FuncProtTwo()">
+<header>
+    <div class="nav">
+		<ul>
+			<li> <a href="portfolio.html">About the creators </a></li> 
+			<li> <a href = "index.html"> Back to home</a></li>    
+  </ul>
+	</div>
+</header>
+<h1 id="headderr"></h1>    
+	
+	<script>
+    confirm("Are you ready to make a Story?")
+    var input1= prompt("First Word");
+    var input2= prompt("Second Word");
+    var input3= prompt("Third Word");
+    var input4= prompt("Forth Word");
+    var input5= prompt("Fifth Word");
+    var input6= prompt("Last Word");
+    if (confirm("Now Give the computer to a friend. Ready?"))
+    {
+        
+    };
+    
+
+        y=document.getElementById("headderr");
+        x=0
+        function showStory(){
+            switch (x){
+                case 0:
+                    keypress = y.innerHTML+=(input1+"<br>   Press any key to contine.<br>");
+                    break;
+                case 1:
+                    keypress = y.innerHTML+=(input2+"<br>   Press any key to contine.<br>");
+                    break;
+                case 2:
+                    keypress = y.innerHTML+=(input3+"<br>   Press any key to contine.<br>");
+                    break;
+                case 3:
+                    keypress = y.innerHTML+=(input4+"<br>   Press any key to contine.<br>");
+                    break;
+                case 4:
+                    keypress = y.innerHTML+=(input5+"<br>   Press any key to contine.<br>");
+                    break;
+                case 5:
+                    keypress = y.innerHTML+=(input6+"<br>   Press any key to contine.<br>");
+                    if (confirm("Would you like to make another story?"))
+                    {
+                        location.reload();
+                    }
+                    break;
+            }
+            x++;
+        }
+        isDown = false;
+        function FuncProtect(){
+            if(!isDown){
+                showStory();
+                    isDown=true;
+            }
+        }
+        function FuncProtTwo(){
+                isDown=false;    
+            }
+                    
+                    
+                    
+    </script>
+</body>
+<footer>
+	 <p style="text-align:center"> &copy; Made by Max Finn and the Johals </p>
+</footer>
+</html>
+
+
